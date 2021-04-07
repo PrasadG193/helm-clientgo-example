@@ -32,7 +32,7 @@ import (
 var settings *cli.EnvSettings
 
 var (
-	url         = "https://kubernetes-charts.storage.googleapis.com"
+	url         = "https://charts.helm.sh/stable"
 	repoName    = "stable"
 	chartName   = "mysql"
 	releaseName = "mysql-dev"
